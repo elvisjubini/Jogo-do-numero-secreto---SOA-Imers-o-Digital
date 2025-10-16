@@ -28,7 +28,7 @@ converterDinheiro();*/
 
 //////////////////////////////////////////////////////////////////////////
 let listaDeNumerosSorteados = [];
-let numeroLimite = 1000;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -93,7 +93,7 @@ function gerarNumeroAleatorio() {
 
 function exibirMensagenInicial(){
 exibirTestoNaTela('h1', 'Jogo do Numero Secreto!');
-exibirTestoNaTela('p', 'Escolha um número de 1 a 100!');
+exibirTestoNaTela('p', 'Escolha um número de 1 a 50!');
 }
 
 
